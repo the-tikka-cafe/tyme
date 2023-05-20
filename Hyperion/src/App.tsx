@@ -1,8 +1,5 @@
 function App() {
-
-  return (
-    <div>This website is a work in progress.</div>
-  )
+  return <div>This website is a work in progress.</div>;
 }
 
-export default App
+export default App;
