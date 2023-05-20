@@ -1,0 +1,2 @@
+cd Hyperion
+npx lint-staged
