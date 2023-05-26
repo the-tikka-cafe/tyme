@@ -1,0 +1,13 @@
+$base-color: #1c1b1a;
+$color-count: 10;
+
+$colors: ();
+
+@for $i from 1 through $color-count {
+  $colors: append($colors, lighten($base-color, ($i - 1) * 10%));
+}
+
+// Convert the map to individual variables
+@each $color-name, $color-value in $colors {
+  $color-name: $color-value;
+}

@@ -1,0 +1,25 @@
+@import './color-generator.scss';
+
+//color-scheme
+$background-color: nth($colors, 1);
+$text-color: nth($colors, 9);
+
+//typography
+$primary-font: 'Hanken Grotesk', sans-serif;
+
+// media query variables
+// Small tablets and large smartphones (landscape view)
+$screen-sm-max: 576px;
+$screen-sm-min: 577px;
+
+// Small tablets (portrait view)
+$screen-md-max: 767px;
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+$screen-lg-max: 991px;
+
+// Large tablets and desktops
+$screen-xl-min: 1450px;
+$screen-xl-max: 1449px;
