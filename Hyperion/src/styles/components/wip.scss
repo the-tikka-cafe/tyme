@@ -1,0 +1,29 @@
+.work-in-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  .illustration {
+    position: relative;
+
+    .loading-icon {
+      svg {
+        animation: loading-ring 1.8s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+      }
+    }
+
+    .hammer-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .wip-text {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+  }
+}

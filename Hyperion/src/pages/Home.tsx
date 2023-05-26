@@ -1,5 +1,7 @@
+import WIP from '../components/wip';
+
 function Home() {
-  return <div className="home-page">This page is WIP</div>;
+  return <WIP />;
 }
 
 export default Home;
