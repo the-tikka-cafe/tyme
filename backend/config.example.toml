@@ -1,0 +1,12 @@
+[app]
+address = "0.0.0.0:7070"
+server_timeout = "5s"
+enable_debug_logs=true
+
+[store.postgres]
+host = "localhost"
+port = 5432 
+username = "postgres"
+password = "postgres"
+database = "tyme"
+ssl_mode = "verify-full"
